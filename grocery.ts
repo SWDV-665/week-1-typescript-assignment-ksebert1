@@ -33,7 +33,10 @@ class Grocery {
   var groceries = [milk, bread, eggs, tofu];
 
   for (let i = 0; i < groceries.length; i++) {
-    document.write("Item" + i + groceries[i] + "<br>");
+    document.write("<em>Brand:</em> " +  groceries[i].brand + "<br>");
+    document.write("<em>Name:</em> " + groceries[i].name + "<br>");
+    document.write("<em>Quantity:</em> " +  groceries[i].quantity + "<br>");
+    document.write("<em>Price:</em> " +  groceries[i].price + "<br><br>")
   }
 
 
