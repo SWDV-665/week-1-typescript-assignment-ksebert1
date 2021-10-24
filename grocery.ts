@@ -1,4 +1,3 @@
-
 class Grocery {
     brand: string;
     name: string;
@@ -38,6 +37,5 @@ class Grocery {
     document.write("<em>Quantity:</em> " +  groceries[i].quantity + "<br>");
     document.write("<em>Price:</em> " +  groceries[i].price + "<br><br>")
   }
-
 
 
